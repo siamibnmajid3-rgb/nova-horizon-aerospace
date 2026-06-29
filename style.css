@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle, #0b0f2a, #000);
+  color: white;
+}
+
+/* stars */
+.stars::before {
+  content: "";
+  position: fixed;
+  width: 2px;
+  height: 2px;
+  background: white;
+  box-shadow: 20px 30px white, 100px 200px white, 300px 400px white;
+  animation: moveStars 6s linear infinite;
+}
+
+@keyframes moveStars {
+  from { transform: translateY(0); }
+  to { transform: translateY(-100px); }
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  color: #00d4ff;
+}
+
+/* hero */
+.hero {
+  text-align: center;
+  margin-top: 150px;
+}
