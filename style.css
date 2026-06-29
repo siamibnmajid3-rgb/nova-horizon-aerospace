@@ -323,3 +323,28 @@ opacity:.8;
     border-color:#61b8ff;
     box-shadow:0 15px 35px rgba(97,184,255,.18);
 }
+/* ===========================
+   PHASE 5 - FOUNDER
+=========================== */
+
+#founder{
+    text-align:center;
+}
+
+#founder h2{
+    margin-bottom:20px;
+}
+
+#founder strong{
+    color:#61b8ff;
+}
+
+#founder em{
+    color:#ffffff;
+    font-style:normal;
+    font-weight:600;
+}
+
+#founder .section-text{
+    max-width:850px;
+}
